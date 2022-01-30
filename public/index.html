@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebSeo Solutions</title>
+  <link rel="stylesheet" href="dist/styles.css" />
+  <link rel="short cut icon" href="/public/dist/assets/favicon.png">
+  <script src="dist/script.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="fixed flex justify-between py-6 w-full lg:px-48 md:px-12 px-4 content-center bg-secondary z-10">
+    <div class="flex items-center">
+      <img src='' alt="Logo" class="h-4" />
+    </div>
+    <ul class="font-montserrat items-center hidden md:flex">
+      <li class="mx-3 ">
+        <a class="growing-underline" href="howitworks">
+          Como trabajamos
+        </a>
+      </li>
+      <li class="growing-underline mx-3">
+        <a href="features">Características</a>
+      </li>
+      <li class="growing-underline mx-3">
+        <a href="pricing">Planes</a>
+      </li>
+    </ul>
+  </nav>
+  <div id='mobileNav' class="hidden px-4 py-6 fixed top-0 left-0 h-full w-full bg-secondary z-20 animate-fade-in-down">
+    <div id="hideMenu" class="flex justify-end">
+      <img src='dist/assets/logos/Cross.svg' alt="" class="h-16 w-16" />
+    </div>
+    <ul class="font-montserrat flex flex-col mx-8 my-24 items-center text-3xl">
+      <li class="my-6">
+        <a href="howitworks">How it works</a>
+      </li>
+      <li class="my-6">
+        <a href="features">Features</a>
+      </li>
+      <li class="my-6">
+        <a href="pricing">Pricing</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <section
+    class="pt-24 md:mt-0 md:h-screen flex flex-col justify-center text-center md:text-left md:flex-row md:justify-between md:items-center lg:px-48 md:px-12 px-4 bg-secondary">
+    <div class="md:flex-1 md:mr-10">
+      <h1 class="font-pt-serif text-5xl font-bold mb-7">
+        Somos una plataforma
+        <span class="bg-underline1 bg-left-bottom bg-no-repeat pb-2 bg-80%">
+          multiservicio 
+        </span>
+      </h1>
+      <p class="font-pt-serif font-normal mb-7">
+        Nos definimos como un equipo que domina diferentes disciplinas. Trabajamos por y para el cliente, a parte de trabajar codo a codo junto a él. Nuestros términos son, responsabilidad, compromiso y eficacia.
+      </p>
+      <div class="font-montserrat">
+        <button class="bg-black px-6 py-4 rounded-lg border-2 border-black border-solid text-white mr-2 mb-2">
+          Descarga nuestro portafolio
+        </button>
+        <button class="px-6 py-4 border-2 border-black border-solid rounded-lg">
+          Quiénes somos
+        </button>
+      </div>
+    </div>
+    <div class="flex justify-around md:block mt-8 md:mt-0 md:flex-1">
+      <div class="relative">
+        <img src='dist/assets/Highlight1.svg' alt="" class="absolute -top-16 -left-10" />
+      </div>
+      <img src='dist/assets/MacBook Pro.png' alt="Macbook" />
+      <div class="relative">
+        <img src='dist/assets/Highlight2.svg' alt="" class="absolute -bottom-10 -right-6" />
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="bg-black text-white sectionSize">
+    <div>
+      <h2 class="secondaryTitle bg-underline2 bg-100%">Como trabajamos</h2>
+    </div>
+    <div class="flex flex-col md:flex-row">
+      <div class="flex-1 mx-8 flex flex-col items-center my-4">
+        <div class="border-2 rounded-full bg-secondary text-black h-12 w-12 flex justify-center items-center mb-3">
+          1
+        </div>
+        <h3 class="font-montserrat font-medium text-xl mb-2">Análisis</h3>
+        <p class="text-center font-montserrat">
+          Acordamos con el cliente los requisitos que demanda. Posteriormente <strong>creamos un examen detallado de su funcionamiento</strong> para conocer las características, cualidades o estado en los cuales falla o necesita mejorar, para escalar su negocio a largo plazo.
+        </p>
+      </div>
+      <div class="flex-1 mx-8 flex flex-col items-center my-4">
+        <div class="border-2 rounded-full bg-secondary text-black h-12 w-12 flex justify-center items-center mb-3">
+          2
+        </div>
+        <h3 class="font-montserrat font-medium text-xl mb-2">Puesta en marcha</h3>
+        <p class="text-center font-montserrat">
+          La puesta en marcha no deja de ser un proceso de arranque, eso es justamente <strong>lo que hacemos nosotros</strong>. Después del informe nos ponemos a mejorar/reparar los errores identificados utilizando las diferentes técnicas qué dominamos.
+        </p>
+      </div>
+      <div class="flex-1 mx-8 flex flex-col items-center my-4">
+        <div class="border-2 rounded-full bg-secondary text-black h-12 w-12 flex justify-center items-center mb-3">
+          3
+        </div>
+        <h3 class="font-montserrat font-medium text-xl mb-2">Automatización</h3>
+        <p class="text-center font-montserrat">
+          Como dice el dicho <quote><strong>las cosas claras y el chocolate espeso. El rendimiento qué esperas no llega a corto plazo, llega a través del hábito y nosotros lo generamos automatizando.</strong></quote>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="sectionSize bg-secondary">
+    <div>
+      <h2 class="secondaryTitle bg-underline3 bg-100%">Características</h2>
+    </div>
+    <div class="md:grid md:grid-cols-2 md:grid-rows-2">
+
+      <div class="flex items-start font-montserrat my-6 mr-10">
+        <img src='dist/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <div>
+          <h3 class="font-semibold text-2xl">Equipo</h3>
+          <p>
+            Somos un equipo realmente variado el cual trabaja con la vocación de aportar un servicio óptimo y de calidad. Nuestras filas están compuestas por, programadores tanto front end como backend, expertos en Shopify y Wordpress, copywritters con más de 5 años de experiencia, marketers profesionales que generan anuncios con conversiones fuera de lo normal y personas con idea para generar creativos para crear unos anuncios perfectos.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-start font-montserrat my-6 mr-10">
+        <img src='dist/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <div>
+          <h3 class="font-semibold text-2xl">Software de trabajo</h3>
+          <p>
+            Trabajamos con distintos softwares. VS Code como editor de código para nuestros desarrolladores, Seigoo herramienta gratuita para análisis primario SEO, Dino Rank para optimizar de forma profesional cualquier página web, plataforma o keyword. Outscraper para scrapear todo tipo de datos para tratarlo posteriormente con la finalidad de obtener una conversión adecuada. Nuestros diseñadores trabajan con Figma, Bravo Studio para generar los mejores diseños webs. 
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-start font-montserrat my-6 mr-10">
+        <img src='dist/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <div>
+          <h3 class="font-semibold text-2xl">Proceso de trabajo</h3>
+          <p>
+           
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-start font-montserrat my-6 mr-10">
+        <img src='dist/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <div>
+          <h3 class="font-semibold text-2xl">Automatización</h3>
+          <p>
+            
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="sectionSize bg-secondary py-0">
+    <div>
+      <h2 class="secondaryTitle bg-underline4 mb-0 bg-100%">Planes</h2>
+    </div>
+    <div class="flex w-full flex-col md:flex-row">
+
+      <div class='flex-1 flex flex-col mx-6 shadow-2xl relative bg-secondary rounded-2xl py-5 px-8 my-8 md:top-24'>
+        <h3 class="font-pt-serif font-normal text-2xl mb-4">
+          Basic
+        </h3>
+        <div class="font-montserrat font-bold text-2xl mb-4">
+          750€
+          <span class="font-normal text-base"> / month</span>
+        </div>
+
+        <div class="flex">
+          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <p>SEO</p>
+        </div>
+        <div class="flex">
+          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <p>Campañas Ads</p>
+        </div>
+        <div class="flex">
+          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <p>Copywritting</p>
+        </div>
+
+        <button class=" border-2 border-solid border-black rounded-xl text-lg py-3 mt-4">
+          Choose plan
+        </button>
+      </div>
+
+      <div class='flex-1 flex flex-col mx-6 shadow-2xl relative bg-secondary rounded-2xl py-5 px-8 my-8 md:top-12'>
+        <h3 class="font-pt-serif font-normal text-2xl mb-4">
+          Medium
+        </h3>
+        <div class="font-montserrat font-bold text-2xl mb-4">
+          1500€
+          <span class="font-normal text-base"> / month</span>
+        </div>
+
+        <div class="flex">
+          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <p>SEO</p>
+        </div>
+        <div class="flex">
+          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <p>Campañas Ads</p>
+        </div>
+        <div class="flex">
+          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <p>Gestión RRSS</p>
+        </div>
+        <div class="flex">
+          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <p>Copywritting</p>
+        </div>
+       
+
+        <button class=" border-2 border-solid border-black rounded-xl text-lg py-3 mt-4">
+          Choose plan
+        </button>
+      </div>
+
+      <div class='flex-1 flex flex-col mx-6 shadow-2xl relative bg-secondary rounded-2xl py-5 px-8 my-8 md:top-24'>
+        <h3 class="font-pt-serif font-normal text-2xl mb-4">
+          Advanced
+        </h3>
+        <div class="font-montserrat font-bold text-2xl mb-4">
+          3000€
+          <span class="font-normal text-base"> / month</span>
+        </div>
+
+        <div class="flex">
+          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <p>Programación</p>
+        </div>
+        <div class="flex">
+          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <p>Campañas Ads</p>
+        </div>
+        <div class="flex">
+          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <p>Virtual Asistant</p>
+        </div>
+        <div class="flex">
+          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <p>Gestión RRSS</p>
+        </div>
+        <div class="flex">
+          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <p>Creativos</p>
+        </div>
+        <div class="flex">
+          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <p>Shopify y Wordpress</p>
+        </div>
+
+        <button class=" border-2 border-solid border-black rounded-xl text-lg py-3 mt-4">
+          Choose plan
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ  -->
+  <section class="sectionSize items-start pt-8 md:pt-36 bg-black text-white">
+    <div>
+      <h2 class="secondaryTitle bg-highlight3 p-10 mb-0 bg-center bg-100%">
+        FAQ
+      </h2>
+    </div>
+
+    <div toggleElement class="w-full py-4">
+      <div class="flex justify-between items-center">
+        <div question class="font-montserrat font-medium mr-auto">
+          
+        </div>
+        <img src='dist/assets/logos/CaretRight.svg' alt="" class="transform transition-transform" />
+      </div>
+      <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
+        
+      </div>
+    </div>
+    <hr class="w-full bg-white" />
+
+    <div toggleElement class="w-full py-4">
+      <div class="flex justify-between items-center">
+        <div question class="font-montserrat font-medium mr-auto">
+          
+        </div>
+        <img src='dist/assets/logos/CaretRight.svg' alt="" class="transform transition-transform" />
+      </div>
+      <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
+        
+      </div>
+    </div>
+    <hr class="w-full bg-white" />
+
+    <div toggleElement class="w-full py-4">
+      <div class="flex justify-between items-center">
+        <div question class="font-montserrat font-medium mr-auto">
+          
+        </div>
+        <img src='dist/assets/logos/CaretRight.svg' alt="" class="transform transition-transform" />
+      </div>
+      <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
+        
+      </div>
+    </div>
+    <hr class="w-full bg-white" />
+
+  </section>
+
+  <!-- Footer -->
+  <section class="bg-black sectionSize">
+    <div class="mb-4">
+      <img src='dist/assets/Logo_white.svg' alt="Logo" class="h-4" />
+    </div>
+    <div class="flex mb-8">
+      <a href="#">
+        <img src='dist/assets/logos/Facebook.svg' alt="Facebook logo" class="mx-4" />
+      </a>
+      <a href="#">
+        <img src='dist/assets/logos/Youtube.svg' alt="Youtube logo" class="mx-4" />
+      </a>
+      <a href="#">
+        <img src='dist/assets/logos/Instagram.svg' alt="Instagram logo" class="mx-4" />
+      </a>
+      <a href="#">
+        <img src='dist/assets/logos/Twitter.svg' alt="Twitter logo" class="mx-4" />
+      </a>
+    </div>
+    <div class="text-white font-montserrat text-sm">
+      © 2021. All rights reserved
+    </div>
+  </section>
+</body>
+
+</html>
